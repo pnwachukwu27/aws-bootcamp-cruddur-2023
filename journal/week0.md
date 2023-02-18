@@ -13,7 +13,7 @@ This is my conceptual diagram
 
 Logical diagram showing a pipeline where developers create a docker file and push it into the repocodebuild will access the newly commited dockerfile and use the build spec file to produce a docker image.Codeploy will use the built docker image to deploy the application on an ec2 which will be managed by ECS. Users will be able to access the application where traffuc will be routed to the application load balancer and on the instances
 
-![Screenshot 2023-02-18 at 15 28 27](https://user-images.githubusercontent.com/106006096/219875557-5d339a5c-3106-497e-9b65-f670592c9336.png)
+![Screenshot 2023-02-18 at 16 01 29](https://user-images.githubusercontent.com/106006096/219875829-8685f922-f23d-4cc7-8605-bf88b47a94a6.png)
 
 
 
