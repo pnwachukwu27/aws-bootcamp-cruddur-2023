@@ -11,6 +11,11 @@ This is my Billing Budget
 This is my conceptual diagram 
 ![Screenshot 2023-02-18 at 15 28 27](https://user-images.githubusercontent.com/106006096/219874203-e892add5-6c7d-4e40-93c2-fa5d6283ee8a.png)
 
+Logical diagram showing a pipeline where developers create a docker file and push it into the repocodebuild will access the newly commited dockerfile and use the build spec file to produce a docker image.Codeploy will use the built docker image to deploy the application on an ec2 which will be managed by ECS. Users will be able to access the application where traffuc will be routed to the application load balancer and on the instances
+
+![Screenshot 2023-02-18 at 15 28 27](https://user-images.githubusercontent.com/106006096/219875557-5d339a5c-3106-497e-9b65-f670592c9336.png)
+
+
 
 
 
